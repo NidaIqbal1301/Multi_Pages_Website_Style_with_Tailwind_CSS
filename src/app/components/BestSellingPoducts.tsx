@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 
 const BestSellingPoducts = () => {
   return (
@@ -19,15 +19,13 @@ const BestSellingPoducts = () => {
               <div className="swiper-slide">
                 <div className="card">
                   <div className="card_top">
-                  import Image from "next/image";
-
-<Image
-  src="/images/items/item-5.png"
-  alt="Item 5"
-  width={270}
-  height={250}
-  className="card_img"
-/>
+                    <Image
+                      src="/images/items/item-5.png"
+                      alt="Item 5"
+                      width={270}
+                      height={250}
+                      className="card_img"
+                    />
                     <div className="card_top_icons">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -755,7 +753,7 @@ const BestSellingPoducts = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default BestSellingPoducts
+export default BestSellingPoducts;
